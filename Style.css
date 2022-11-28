@@ -1,0 +1,92 @@
+.navbar {
+  display: flex;
+  padding: 20px;
+  padding-bottom: 0;
+  align-items: center;
+  height: 50px;
+}
+.logo-image {
+  width: 15rem;
+  height: 100%;
+  size: 100px;
+  margin-left: 5rem;
+  cursor: pointer;
+}
+.items {
+  color: rgb(33, 31, 31);
+  padding: 15px;
+  text-decoration: none;
+  font-size: 1.9rem;
+  cursor: pointer;
+  font-family: "OnePlus Sans Display Light", "Helvetica Neue", Helvetica, Arial,
+    sans-serif, system-ui;
+}
+.item-container {
+  margin-left: 100px;
+}
+:hover.items {
+  text-decoration: underline;
+  margin-top: 1px;
+  color: rgb(214, 37, 37);
+}
+.hero-content {
+  background-image: url("Images/oneplus.png");
+  height: 100rem;
+  width: 100%;
+}
+
+.heading {
+  color: white;
+  font-size: 2.5rem;
+  padding-left: 10rem;
+  padding-top: 10rem;
+  font-family: "OnePlus Sans Display Light", "Helvetica Neue", Helvetica, Arial,
+    sans-serif, system-ui;
+}
+.attract {
+  color: white;
+  font-size: 5rem;
+  font-family: "OnePlus Sans Display Light", "Helvetica Neue", Helvetica, Arial,
+    sans-serif, system-ui;
+  padding-left: 10rem;
+  font-weight: lighter;
+}
+.item-container12 {
+  margin-left: 35rem;
+}
+.icons {
+  display: inline-block;
+  letter-spacing: 10px;
+  margin-left: 2rem;
+  font-size: 1.5rem;
+}
+.launch {
+  font-family: "OnePlus Sans Display Light", "Helvetica Neue", Helvetica, Arial,
+    sans-serif, system-ui;
+  color: white;
+  font-size: 2rem;
+  margin-left: 10rem;
+  padding-top: 40rem;
+}
+.notify {
+  font-family: "OnePlus Sans Display Light", "Helvetica Neue", Helvetica, Arial,
+    sans-serif, system-ui;
+  color: white;
+  font-size: 2rem;
+  margin-left: 10rem;
+}
+.button {
+  font-family: "OnePlus Sans Display Light", "Helvetica Neue", Helvetica, Arial,
+    sans-serif, system-ui;
+  color: rgb(12, 11, 11);
+  font-size: 2rem;
+  margin-left: 10rem;
+  padding: 20px 8rem;
+  cursor: pointer;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+}
+:hover.button {
+  background-color: red;
+}
